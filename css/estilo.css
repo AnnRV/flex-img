@@ -1,0 +1,35 @@
+*{
+	margin:0;
+	padding:0;
+}
+/* https://picsum.photos/500 */
+/* EJEMPLO
+body{
+	background-color: tomato;
+	color: white;
+	font-family: sans-serif;
+}
+CSS CONDICIONADO
+@media screen and (max-width:800px){
+	body{
+		background-color: deepskyblue;
+	}
+}
+@media screen and (max-width:400px){
+	body{
+		background-color: gold;
+		color:black;
+	}
+}
+ */
+body{
+	font-family: sans-serif;
+}
+.galeria{
+	width:90%;
+	margin:20px auto;
+}
+.galeria a, .galeria img{
+	display:block;
+	width:100%;
+}
